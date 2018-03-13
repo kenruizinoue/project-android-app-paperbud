@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorDateText">#206A67</color>
+    <color name="colorAppBackground">#F4F4F4</color>
+    <color name="colorSecondaryText">#656464</color>
+    <color name="colorAsset">#656464</color>
+    <color name="colorArrow">#424242</color>
+
+</resources>
