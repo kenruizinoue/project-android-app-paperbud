@@ -10,10 +10,16 @@ Download
 <a href="https://play.google.com/store/apps/details?id=com.apps.yecotec.paperbud">
 <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" height="50px"/></a>
 
+Usage
+---
+Add your themoviedb.org API key in the `app/src/main/java/com/apps/yecotec/paperbud/data/remote/NewsApiService.java` file:
+
+    @GET("/v2/top-headlines?language=en&apiKey=$PLACE_YOUR_KEY_HERE$")
+
 Overview
 ---
 - Use of clean architecture with MVP
-- A simple open source project of booking app
+- Simple open source project
 - Recycler view for representing data collection ui
 - Butternkife library to facilitate the use of resources
 - Retrofit library for calling rest api and parsing object
